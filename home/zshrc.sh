@@ -85,4 +85,4 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-source ~/zsh.local.sh
+source ~/.zsh.local
