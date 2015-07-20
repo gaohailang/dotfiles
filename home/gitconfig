@@ -2,6 +2,10 @@
 	name = gaohailang
 	email = ghlndsl@126.com
 
+# the effects of these settings in the .git/config file
+# git config user.name "Your Name Here"
+# git config user.email your@email.com
+
 [github]
   user = ghlndsl@126.com
 

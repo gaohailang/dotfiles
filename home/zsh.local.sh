@@ -1,3 +1,5 @@
+alias fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
+source $(brew --prefix nvm)/nvm.sh
 # migrate from before
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin"
@@ -35,8 +37,9 @@ alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET
 
 alias f="open -a Finder"
 
-alias -g is26="ssh -R 52698:localhost:52698 sivagao@is26.com"
-alias -g wdjrelay="ssh -p 2222 gaohailang@hy-relay2.wandoujia.com"
+alias -g is26="ssh -p 1818 sivagao@106.187.102.77"
+#alias -g is26="ssh -R 52698:localhost:52698 sivagao@is26.com"
+#alias -g wdjrelay="ssh -p 2222 gaohailang@hy-relay2.wandoujia.com"
 alias -g hosts="sudo vim /etc/hosts"
 
 alias nw=/Applications/node-webkit.app/Contents/MacOS/node-webkit
